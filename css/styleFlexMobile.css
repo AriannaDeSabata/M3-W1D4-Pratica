@@ -1,0 +1,32 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    padding:  100px 200px;
+}
+.contArticle{
+    display: flex;
+    background-color: #FCF7E3;
+    padding: 15px;
+    flex-wrap: wrap-reverse;
+}
+.textArticle, img{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+img{
+    object-fit: cover;
+    flex-basis: 350px;
+    overflow: hidden;
+
+}
+h3{
+    font-weight: bold;
+}
+
+.textArticle{
+    margin: 15px;
+    flex-basis: 350px;
+}
+
